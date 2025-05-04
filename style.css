@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: #F5F5F5;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 3rem;
+    width: fit-content;
+    border-radius: 10px;
+}
+.value{
+    background-color:#F0F0F0;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 10px;
+}
+.title span{
+    color: rgb(0, 98, 255);
+}
+.input-elements{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.input-elements input{
+    flex: 1;
+    padding: 15px 30px 15px 30px;
+    border: none;
+    border: 1px solid rgb(181, 181, 181);
+    font-size: 1rem;
+}
+.input-elements button{
+    padding: 15px 30px 15px 30px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+.msg{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+.success{
+    background-color:#DFF0D8 ;
+    color: #4CAF50;
+}
+.fail{
+    background-color:#F2DEDE;
+    color: #A94442;
+}
